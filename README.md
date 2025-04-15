@@ -3,23 +3,7 @@
   <h1>🛡️ Smart Solution for Bank Fraud Detection Using Machine Learning</h1>
   <p>This project addresses the critical issue of bank fraud by implementing machine learning techniques on a highly imbalanced dataset. The focus lies in detecting fraudulent financial transactions with improved accuracy, precision, and recall by leveraging various data balancing strategies and robust model evaluation.</p>
 
-  <h2>📌 Table of Contents</h2>
-  <ul>
-    <li>Introduction</li>
-    <li>Dataset</li>
-    <li>Performance (Before Balancing)</li>
-    <li>Performance (After Balancing)</li>
-    <li>Comparison with Contemporary AI Research</li>
-    <li>Strengths and Weaknesses</li>
-    <li>Ethical and Societal Considerations</li>
-    <li>Conclusion</li>
-    <li>References</li>
-  </ul>
-
-  <h2>📖 Introduction</h2>
-  <p>Bank fraud is a rising concern with the digitization of financial systems. This project presents an AI-based system using various machine learning models to detect fraud in financial transactions. The solution particularly focuses on handling imbalanced datasets, a common challenge in fraud detection tasks.</p>
-
-  <h2>📊 Dataset</h2>
+ <h2>📊 Dataset</h2>
   <p>The benchmark dataset used contains 1 million transactions with 31 features. Among them, only 11,029 transactions are labeled as fraudulent (<code>device_fraud_count = True</code>), making the dataset highly imbalanced.</p>
 
   <h2>❌ Performance Before Using the Balancing Dataset</h2>
@@ -70,25 +54,5 @@
     <li><strong>Robust evaluation:</strong> Stratified K-Fold Cross-Validation was used to preserve class distribution.</li>
   </ul>
 
-  <h2>⚖️ Strengths and Weaknesses</h2>
-  <h3>Strengths:</h3>
-  <ul>
-    <li>Effectively addresses imbalanced data issues.</li>
-    <li>Uses multiple ML algorithms to compare performance.</li>
-    <li>Applies cross-validation for consistent and fair model evaluation.</li>
-  </ul>
-
-  <h3>Weaknesses:</h3>
-  <ul>
-    <li>Potential for model overfitting, even with balancing.</li>
-    <li>Limited hyperparameter tuning could affect optimal performance.</li>
-  </ul>
-
-  <h2>🔐 Ethical and Societal Considerations</h2>
-  <p>The dataset used is publicly available and anonymized, ensuring user privacy and confidentiality.</p>
-  <p>Originally published in <strong>NeurIPS 2022</strong> and funded by the <strong>European Regional Development Fund</strong>, ensuring credibility and authenticity.</p>
-
-  <h2>🏁 Conclusion</h2>
-  <p>This project effectively tackles a real-world problem by integrating data balancing with machine learning for fraud detection. While there's room to improve model tuning and generalizability, the approach demonstrates a solid foundation for practical fraud prevention systems.</p>
 </body>
 </html>
